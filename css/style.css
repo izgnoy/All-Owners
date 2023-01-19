@@ -112,6 +112,7 @@ a {
    gap: 5px;
 }
 .footer-li {
+  font-size: 12px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .fob {
@@ -270,10 +271,7 @@ a {
 .nav-container input[type="checkbox"]:checked ~ .logo{
   display: none;
 }
-.div {
-
-}
-
     .ibo {
         padding-left: 80px;
     }
+    
