@@ -241,15 +241,16 @@ a {
   margin-bottom: 1.2rem;
   font-size: 1.5rem;
   font-weight: 500;
-
+  
 }
 
 .logo {
+  /* padding-bottom: 100px; */
   position: absolute;
   top: 15px;
   right: 15px;
-  font-size: 1.2rem;
-  color: #ffffff;
+  font-size: 1.0rem;
+  color: #9d2525a8;
 }
 
 .nav-container input[type="checkbox"]:checked ~ .menu-items {
@@ -271,17 +272,33 @@ a {
 .nav-container input[type="checkbox"]:checked ~ .logo{
   display: none;
 }
-    .ibo {
-        padding-left: 80px;
-    }
     /* 277 */
     .card-vs {
       font-family: 'Courier New', Courier, monospace;
       text-align: center;
+      padding-top: 25px;
+      
+      /* background-color: ; */
     }
     .vs-c {
-      padding-left: 60px;
-      padding-top: 15px;
+      padding-left: 50px;
+      /* padding-top: 15px; */
       display: flex;
-      gap: 15px;
+      gap: 15px;  
+      padding-bottom: 15px;
     }
+    .ichida {
+      background: #1e1e1e;
+      border-radius: 15px;
+      box-shadow: 0px 5px 10px 0px rgba(175, 26, 26, 0.676);
+      /* box-shadow: #1e1e1e ; */
+      padding-top: 15px;
+    }
+.news-img {
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px 0px rgba(183, 21, 21, 0.676)
+
+}
+.vs {
+  padding-top: 20px;
+}
