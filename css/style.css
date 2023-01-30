@@ -19,8 +19,8 @@ a {
     background: rgb(22, 22, 22);
     border-bottom:15px solid black;
     border-top:15px solid black;
-    border-right:15px solid black;
-    border-left:15px solid black;
+    border-right:10px solid black;
+    border-left:10px solid black;
 }
 .card {
     border-bottom:15px solid black;
@@ -50,9 +50,9 @@ a {
 .back {
     background: rgb(22, 22, 22);
     /* border-color: black?; */
-    border-top:15px solid black;
-    border-left:17px solid black;
-    border-right:17px solid black;
+    border-top:10px solid black;
+    border-left:10px solid black;
+    border-right:10px solid black;
 }
 .jo {
     /* border-top:15px solid black; */
@@ -274,4 +274,14 @@ a {
     .ibo {
         padding-left: 80px;
     }
-    
+    /* 277 */
+    .card-vs {
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+    }
+    .vs-c {
+      padding-left: 60px;
+      padding-top: 15px;
+      display: flex;
+      gap: 15px;
+    }
